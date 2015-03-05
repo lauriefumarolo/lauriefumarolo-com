@@ -127,8 +127,14 @@ only screen and (max-device-width: 1024px) {
 		margin: 0 16px;
 	}
 
+	/* Pink horizontal lines go above and below */
 	header h1 {
+		display: block;
+		padding-top: 10px;
+		padding-bottom: 10px;
 		font-size: 20px;
+		border-top: 1px solid #FF0066; /* Hot pink */
+		border-bottom: 1px solid #FF0066; /* Hot pink */
 	}
 
 	#about_me p {

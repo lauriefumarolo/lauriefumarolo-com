@@ -1,13 +1,15 @@
 html, body {
 	height: 100%;
-	margin: 0;
+	margin: 0 25px;
 	padding: 0;
+	background: #EFEDEE; /* Light gray */
 	font-family: 'EB Garamond', serif;
 }
 
 #wrapper {
 	position: relative;
 	min-height: 100%;
+	background: white;
 }
 
 /* Laurie Fumarolo header styles */
@@ -44,6 +46,7 @@ header h1:after {
 /* About me styles */
 
 #about_me p {
+	padding: 0 20px;
 	text-align: center;
 	font-size: 18px;
 }
@@ -104,4 +107,17 @@ footer {
 .social {
 	width: 40px;
 	height: 40px;
+}
+
+/* Media query */
+
+@media only screen and (max-width: 855px),
+only screen and (max-device-width: 1024px) {
+	html, body {
+		margin: 0 16px;
+	}
+
+	header h1 {
+		font-size: 24px;
+	}
 }

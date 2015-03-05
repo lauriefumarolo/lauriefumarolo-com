@@ -68,9 +68,7 @@ header h1:after {
 
 #projects {
 	width: 430px;
-	margin-left: auto;
-	margin-right: auto;
-	margin-top: 50px;
+	margin: 50px auto;
 }
 
 .tile_menu_item {
@@ -81,6 +79,7 @@ header h1:after {
 .tile_menu_item a {
 	display: inline-block;
 	position: relative;
+	text-decoration: none;
 }
 
 .tile_menu_item a:hover {
@@ -89,7 +88,7 @@ header h1:after {
 
 .tile_menu_item img {
 	width: 400px;
-	height: 300px;
+	height: 450px;
 }
 
 /* Overlay text */
@@ -102,14 +101,14 @@ header h1:after {
 	bottom: 0;
 	color: white;
 	text-align: center;
-	font-size: 35px;
+	font-size: 32px;
 	background: rgba(2, 2, 2, 0.7);
 }
 
 /* Footer styles */
 
 footer {
-	padding: 30px;
+	padding: 0 30px 14px 30px;
 	text-align: center;
 	font-size: 14px;
 }
@@ -129,6 +128,23 @@ only screen and (max-device-width: 1024px) {
 	}
 
 	header h1 {
-		font-size: 24px;
+		font-size: 20px;
+	}
+
+	#about_me p {
+		font-size: 15px;
+	}
+
+	#projects {
+		width: 270px;
+	}
+
+	.tile_menu_item img {
+		width: 240px;
+		height: 290px;
+	}
+
+	.tile_menu_item h2 {
+		font-size: 20px;
 	}
 }

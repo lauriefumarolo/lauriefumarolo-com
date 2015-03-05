@@ -7,7 +7,9 @@ html, body {
 }
 
 #wrapper {
+	display: -webkit-flex;
 	display: flex;
+	-webkit-flex-direction: column;
 	flex-direction: column;
 	min-height: 100%;
 	background: white;
@@ -20,7 +22,9 @@ header {
 }
 
 header h1 {
+	display: -webkit-flex;
 	display: flex;
+	-webkit-flex-direction: row;
 	flex-direction: row;
 	text-align: center;
 	font-family: 'Codystar', cursive;
@@ -29,6 +33,7 @@ header h1 {
 
 /* Horizontal lines */
 header h1:before, header h1:after {
+	-webkit-flex: 1;
 	flex: 1;
 	position: relative;
 	top: 0.5em;
@@ -47,6 +52,7 @@ header h1:after {
 /* Content styles */
 
 #content {
+	-webkit-flex: 1;
 	flex: 1;
 }
 

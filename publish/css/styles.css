@@ -16,7 +16,27 @@ header {
 }
 
 header h1 {
+	display: table;
 	text-align: center;
+	white-space: nowrap;
+}
+
+/* Horizontal lines */
+header h1:before, header h1:after {
+	display: table-cell;
+	position: relative;
+	width: 45%;
+	top: 0.5em;
+	content: '';
+	border-top: 1px solid #FF0066; /* Hot pink */
+}
+
+header h1:before {
+	right: 1.5%;
+}
+
+header h1:after {
+	left: 1.5%;
 }
 
 /* About me styles */
@@ -54,6 +74,7 @@ header h1 {
 	height: 300px;
 }
 
+/* Overlay text */
 .tile_menu_item h2 {
 	position: absolute;
 	width: 100%;

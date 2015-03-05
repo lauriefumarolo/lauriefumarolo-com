@@ -88,7 +88,7 @@ header h1:after {
 
 .tile_menu_item img {
 	width: 400px;
-	height: 450px;
+	height: 400px;
 }
 
 /* Overlay text */
@@ -141,7 +141,7 @@ only screen and (max-device-width: 1024px) {
 
 	.tile_menu_item img {
 		width: 240px;
-		height: 290px;
+		height: 240px;
 	}
 
 	.tile_menu_item h2 {

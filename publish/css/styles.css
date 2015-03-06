@@ -6,6 +6,10 @@ html, body {
 	font-family: 'EB Garamond', serif;
 }
 
+a {
+	text-decoration: none;
+}
+
 #wrapper {
 	display: -webkit-flex;
 	display: flex;
@@ -79,7 +83,6 @@ header h1:after {
 .tile_menu_item a {
 	display: inline-block;
 	position: relative;
-	text-decoration: none;
 }
 
 .tile_menu_item a:hover {
@@ -114,9 +117,18 @@ footer {
 }
 
 /* LinkedIn button styles */
+
 .social {
-	width: 40px;
-	height: 40px;
+	display: block;
+	width: 32px;
+	height: 32px;
+	margin: auto;
+	background-image: url('../images/linkedin_circle_color-32.png');
+	background-repeat: no-repeat;
+}
+
+.social:hover {
+	background-image: url('../images/linkedin_circle_gray-32.png');
 }
 
 /* Media query */

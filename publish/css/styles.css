@@ -3,7 +3,8 @@ html, body {
 	margin: 0 25px;
 	padding: 0;
 	background: #EFEDEE; /* Light gray */
-	font-family: 'EB Garamond', serif;
+	font-family: 'Open Sans Condensed', sans-serif;
+	color: #454445; /* Dark gray */
 }
 
 a {

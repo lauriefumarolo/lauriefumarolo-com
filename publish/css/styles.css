@@ -71,22 +71,20 @@ header h1:after {
 /* Image tile styles */
 
 #projects {
-	width: 430px;
+	width: 450px;
 	margin: 50px auto;
 }
 
 .tile_menu_item {
 	display: inline-block;
+	position: relative;
 	margin: 15px;
+	padding: 10px;
 }
 
 .tile_menu_item a {
 	display: inline-block;
 	position: relative;
-}
-
-.tile_menu_item a:hover {
-	opacity: 0.4;
 }
 
 .tile_menu_item img {
@@ -106,6 +104,34 @@ header h1:after {
 	text-align: center;
 	font-size: 32px;
 	background: rgba(2, 2, 2, 0.7);
+}
+
+/* Pink corners */
+
+.top, .bottom {
+	position: absolute;
+	width: 15px;
+	height: 15px;
+}
+
+.top {
+	top: 0;
+	border-top: 3px solid #FF0066; /* Hot pink */
+}
+
+.bottom {
+	bottom: 0;
+	border-bottom: 3px solid #FF0066; /* Hot pink */
+}
+
+.left {
+	left: 0;
+	border-left: 3px solid #FF0066; /* Hot pink */
+}
+
+.right {
+	right: 0;
+	border-right: 3px solid #FF0066; /* Hot pink */
 }
 
 /* Footer styles */
@@ -154,7 +180,11 @@ only screen and (max-device-width: 1024px) {
 	}
 
 	#projects {
-		width: 270px;
+		width: 260px;
+	}
+
+	.tile_menu_item {
+		margin: auto;
 	}
 
 	.tile_menu_item img {

@@ -8,7 +8,8 @@ html, body {
 	color: #454445; /* Dark gray */
 }
 
-a {
+a:link, a:visited, a:hover {
+	color: #454445; /* Dark gray */
 	text-decoration: none;
 }
 
@@ -74,7 +75,7 @@ header h1:after {
 
 #projects {
 	width: 450px;
-	margin: 50px auto;
+	margin: 30px auto;
 }
 
 .tile_menu_item {
@@ -127,12 +128,48 @@ header h1:after {
 	border-right: 3px solid #FF0066; /* Hot pink */
 }
 
+/* Acknowledgements page styles */
+
+section {
+	text-align: center;
+}
+
+.acknowledgementList {
+	padding-left: 30px;
+	padding-right: 30px;
+}
+
+.acknowledgementList li {
+	list-style: none;
+}
+
+.acknowledgementList li:before {
+	position: relative;
+	padding-right: .25em;
+	top: .1em;
+	font-size: 1.2em;
+	content: '\2022'; /* /2022 is the numerical unicode for &bull; */
+	color: #454445; /* Dark gray */
+}
+
+.acknowledgementList a:link, .acknowledgementList a:visited, .acknowledgementList a:hover {
+	color: #FF0066; /* Hot pink */
+}
+
+.acknowledgementList a:hover {
+	text-decoration: underline;
+}
+
 /* Footer styles */
 
 footer {
 	padding: 0 30px 14px 30px;
 	text-align: center;
 	font-size: 14px;
+}
+
+footer a:hover {
+	text-decoration: underline;
 }
 
 /* LinkedIn button styles */

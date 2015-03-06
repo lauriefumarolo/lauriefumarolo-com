@@ -2,7 +2,8 @@ html, body {
 	height: 100%;
 	margin: 0 25px;
 	padding: 0;
-	background: #EFEDEE; /* Light gray */
+	background-image: url('../images/debut-light.png');
+	background-repeat: repeat;
 	font-family: 'Open Sans Condensed', sans-serif;
 	color: #454445; /* Dark gray */
 }

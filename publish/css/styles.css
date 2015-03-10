@@ -41,8 +41,8 @@ header h1, #projects h2 {
 /* Horizontal lines */
 header h1:before, header h1:after,
 #projects h2:before, #projects h2:after {
-	-webkit-flex: 1 0 0;
-	flex: 1 0 0;
+	-webkit-flex: 1;
+	flex: 1;
 	position: relative;
 	top: 0.5em;
 	content: '';
@@ -60,8 +60,8 @@ header h1:after, #projects h2:after {
 /* Content styles */
 
 #content {
-	-webkit-flex: 1 0 0;
-	flex: 1 0 0;
+	-webkit-flex: 1;
+	flex: 1;
 }
 
 /* About me styles */
@@ -96,7 +96,6 @@ header h1:after, #projects h2:after {
 
 .tile_menu_item img {
 	width: 400px;
-	height: 400px;
 }
 
 .tile_menu_item p {
@@ -238,6 +237,10 @@ only screen and (max-device-width: 1024px) {
 	}
 
 	/* Pink horizontal lines go above and below */
+	header {
+		padding: 20px;
+	}
+
 	header h1 {
 		display: block;
 		padding-top: 10px;
@@ -265,8 +268,7 @@ only screen and (max-device-width: 1024px) {
 	}
 
 	.tile_menu_item img {
-		width: 240px;
-		height: 240px;
+		width: 230px;
 	}
 
 	.tile_menu_item h2 {
@@ -275,15 +277,29 @@ only screen and (max-device-width: 1024px) {
 
 	.project_img {
 		float: none;
+		margin-left: 0;
+		margin-right: 0;
 		text-align: center;
 	}
 
 	.project_img img {
-		width: 240px;
+		width: 230px;
 	}
 
 	.project_info {
 		margin-left: 40px;
 		text-align: center;
+	}
+
+	.project_info h1 {
+		font-size: 22px;
+	}
+
+	.project_info p {
+		font-size: 16px;
+	}
+
+	.project_link {
+		font-size: 18px;
 	}
 }

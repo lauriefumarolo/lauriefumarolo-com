@@ -34,15 +34,15 @@ header h1, #projects h2 {
 	-webkit-flex-direction: row;
 	flex-direction: row;
 	text-align: center;
-	font-family: 'Codystar', cursive;
+	font-family: 'Codystar', sans-serif;
 	white-space: nowrap;
 }
 
 /* Horizontal lines */
 header h1:before, header h1:after,
 #projects h2:before, #projects h2:after {
-	-webkit-flex: 1;
-	flex: 1;
+	-webkit-flex: 1 0 0;
+	flex: 1 0 0;
 	position: relative;
 	top: 0.5em;
 	content: '';
@@ -60,8 +60,8 @@ header h1:after, #projects h2:after {
 /* Content styles */
 
 #content {
-	-webkit-flex: 1;
-	flex: 1;
+	-webkit-flex: 1 0 0;
+	flex: 1 0 0;
 }
 
 /* About me styles */
@@ -167,6 +167,34 @@ section {
 	text-decoration: underline;
 }
 
+/* Project pages */
+
+.project_img {
+	float: left;
+	margin: 30px 40px 30px 50px;
+}
+
+.project_img img {
+	width: 400px;
+}
+
+.project_info {
+	margin: 30px 40px 30px 0;
+}
+
+.project_info p {
+	font-size: 20px;
+}
+
+.project_link {
+	font-size: 22px;
+	font-weight: bold;
+}
+
+.project_link:hover {
+	text-decoration: underline;
+}
+
 hr {
 	border: 0;
 	height: 1px;
@@ -243,5 +271,19 @@ only screen and (max-device-width: 1024px) {
 
 	.tile_menu_item h2 {
 		font-size: 18px;
+	}
+
+	.project_img {
+		float: none;
+		text-align: center;
+	}
+
+	.project_img img {
+		width: 240px;
+	}
+
+	.project_info {
+		margin-left: 40px;
+		text-align: center;
 	}
 }

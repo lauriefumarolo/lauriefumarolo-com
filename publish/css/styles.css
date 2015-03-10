@@ -167,6 +167,13 @@ section {
 	text-decoration: underline;
 }
 
+hr {
+	border: 0;
+	height: 1px;
+	margin: 50px 20px 5px 20px;
+	background: #FF0066; /* Hot pink */
+}
+
 /* Footer styles */
 
 footer {

@@ -28,7 +28,7 @@ header {
 	padding: 30px;
 }
 
-header h1 {
+header h1, #projects h2 {
 	display: -webkit-flex;
 	display: flex;
 	-webkit-flex-direction: row;
@@ -39,7 +39,8 @@ header h1 {
 }
 
 /* Horizontal lines */
-header h1:before, header h1:after {
+header h1:before, header h1:after,
+#projects h2:before, #projects h2:after {
 	-webkit-flex: 1;
 	flex: 1;
 	position: relative;
@@ -48,11 +49,11 @@ header h1:before, header h1:after {
 	border-top: 1px solid #FF0066; /* Hot pink */
 }
 
-header h1:before {
+header h1:before, #projects h2:before {
 	right: 1.5%;
 }
 
-header h1:after {
+header h1:after, #projects h2:after {
 	left: 1.5%;
 }
 
@@ -74,8 +75,12 @@ header h1:after {
 /* Project tile styles */
 
 #projects {
-	width: 450px;
 	margin: 30px auto;
+}
+
+#projects h2 {
+	width: 300px;
+	margin: 50px auto 30px auto;
 }
 
 .tile_menu_item {
@@ -94,10 +99,12 @@ header h1:after {
 	height: 400px;
 }
 
-.tile_menu_item h2 {
+.tile_menu_item p {
 	margin: 0;
 	padding: 0;
 	text-align: center;
+	font-size: 22px;
+	font-weight: bold;
 }
 
 /* Pink corners */
@@ -211,6 +218,11 @@ only screen and (max-device-width: 1024px) {
 
 	#projects {
 		width: 260px;
+	}
+
+	#projects h2 {
+		width: 200px;
+		font-size: 20px;
 	}
 
 	.tile_menu_item {

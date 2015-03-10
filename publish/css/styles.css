@@ -150,12 +150,10 @@ section {
 }
 
 .acknowledgementList li:before {
-	position: relative;
 	padding-right: .25em;
 	top: .1em;
 	font-size: 1.2em;
 	content: '\2022'; /* /2022 is the numerical unicode for &bull; */
-	color: #454445; /* Dark gray */
 }
 
 .acknowledgementList a:link, .acknowledgementList a:visited, .acknowledgementList a:hover {
@@ -194,14 +192,14 @@ section {
 	text-decoration: underline;
 }
 
+/* Footer styles */
+
 hr {
 	border: 0;
 	height: 1px;
 	margin: 50px 20px 5px 20px;
 	background: #FF0066; /* Hot pink */
 }
-
-/* Footer styles */
 
 footer {
 	padding: 0 30px 14px 30px;
@@ -248,6 +246,10 @@ only screen and (max-device-width: 1024px) {
 		font-size: 20px;
 		border-top: 1px solid #FF0066; /* Hot pink */
 		border-bottom: 1px solid #FF0066; /* Hot pink */
+	}
+
+	header h1:before, header h1:after {
+		content: none;
 	}
 
 	#about_me p {

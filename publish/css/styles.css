@@ -28,33 +28,52 @@ header {
 	padding: 30px;
 }
 
-header h1, #projects h2 {
-	display: -webkit-flex;
-	display: flex;
-	-webkit-flex-direction: row;
-	flex-direction: row;
+.strike {
+	display: block;
 	text-align: center;
-	font-family: 'Codystar', sans-serif;
+	overflow: hidden;
 	white-space: nowrap;
 }
 
-/* Horizontal lines */
-header h1:before, header h1:after,
-#projects h2:before, #projects h2:after {
-	-webkit-flex: 1;
-	flex: 1;
+.strike > span {
+	display: inline-block;
 	position: relative;
-	top: 0.5em;
+}
+
+.strike > span:before, .strike > span:after {
+	position: absolute;
+	width: 10000px; /* In IE, 100% isn't actually 100% */
+	height: 1px;
+	top: 50%;
 	content: '';
-	border-top: 1px solid #FF0066; /* Hot pink */
+	background: #FF0066; /* Hot pink */
 }
 
-header h1:before, #projects h2:before {
-	right: 1.5%;
+.strike > span:before {
+	right: 100%;
+	margin-right: 15px;
 }
 
-header h1:after, #projects h2:after {
-	left: 1.5%;
+.strike > span:after {
+	left: 100%;
+	margin-left: 15px;
+}
+
+.siteHeader, .sectionHeader {
+	font-family: 'Codystar', sans-serif;
+	font-size: 36px;
+	font-weight: bold;
+}
+
+/* Section header styles */
+
+.strike_section {
+	max-width: 400px;
+	margin: 50px auto 30px auto;
+}
+
+.sectionHeader {
+	font-size: 28px;
 }
 
 /* Content styles */
@@ -76,11 +95,6 @@ header h1:after, #projects h2:after {
 
 #projects {
 	margin: 30px auto;
-}
-
-#projects h2 {
-	width: 300px;
-	margin: 50px auto 30px auto;
 }
 
 .tile_menu_item {
@@ -227,7 +241,14 @@ footer a:hover {
 	background-image: url('../images/linkedin_circle_gray-32.png');
 }
 
-/* Media query */
+/* Media queries */
+
+/* IE doesn't actually support the CSS flexbox model so use different styling here */
+@media all and (-ms-high-contrast: none), (-ms-high-contrast: active) {
+	#content {
+		flex: 1 0 auto;
+	}
+}
 
 @media only screen and (max-width: 855px),
 only screen and (max-device-width: 1024px) {
@@ -240,7 +261,7 @@ only screen and (max-device-width: 1024px) {
 		padding: 20px;
 	}
 
-	header h1 {
+	header .strike {
 		display: block;
 		padding-top: 10px;
 		padding-bottom: 10px;
@@ -249,8 +270,16 @@ only screen and (max-device-width: 1024px) {
 		border-bottom: 1px solid #FF0066; /* Hot pink */
 	}
 
-	header h1:before, header h1:after {
+	header .strike > span:before, header .strike > span:after {
 		content: none;
+	}
+
+	.siteHeader, .sectionHeader {
+		font-size: 18px;
+	}
+
+	.strike_section {
+		max-width: 200px;
 	}
 
 	#about_me p {
@@ -259,11 +288,6 @@ only screen and (max-device-width: 1024px) {
 
 	#projects {
 		width: 260px;
-	}
-
-	#projects h2 {
-		width: 200px;
-		font-size: 20px;
 	}
 
 	.tile_menu_item {

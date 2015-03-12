@@ -83,9 +83,9 @@ header {
 	flex: 1;
 }
 
-/* About me styles */
+/* Paragraph styles */
 
-#about_me p {
+#about_me p, #special_thanks p {
 	padding: 0 30px;
 	text-align: center;
 	font-size: 18px;
@@ -282,7 +282,7 @@ only screen and (max-device-width: 1024px) {
 		max-width: 200px;
 	}
 
-	#about_me p {
+	#about_me p, #special_thanks p {
 		font-size: 15px;
 	}
 

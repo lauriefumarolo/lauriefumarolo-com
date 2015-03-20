@@ -97,22 +97,22 @@ header {
 	margin: 30px auto;
 }
 
-.tile_menu_item {
+.project_tile {
 	display: inline-block;
 	position: relative;
 	margin: 15px;
 	padding: 10px;
 }
 
-.tile_menu_item a {
+.project_tile a {
 	display: inline-block;
 }
 
-.tile_menu_item img {
+.project_tile img {
 	width: 400px;
 }
 
-.tile_menu_item p {
+.project_tile p {
 	margin: 0;
 	padding: 0;
 	text-align: center;
@@ -285,15 +285,15 @@ footer a:hover {
 		font-size: 15px;
 	}
 
-	.tile_menu_item {
+	.project_tile {
 		margin: auto;
 	}
 
-	.tile_menu_item img {
+	.project_tile img {
 		width: 230px;
 	}
 
-	.tile_menu_item h2 {
+	.project_tile h2 {
 		font-size: 18px;
 	}
 

@@ -72,7 +72,7 @@ header {
 	margin: 50px auto 30px auto;
 }
 
-.sectionHeader {
+.sectionHeader, h2 {
 	font-size: 28px;
 }
 
@@ -85,10 +85,13 @@ header {
 
 /* Paragraph styles */
 
+#about_me p, .project_info p, #special_thanks p {
+	font-size: 18px;
+}
+
 #about_me p, #special_thanks p {
 	padding: 0 30px;
 	text-align: center;
-	font-size: 18px;
 }
 
 /* Project tile styles */
@@ -116,7 +119,7 @@ header {
 	margin: 0;
 	padding: 0;
 	text-align: center;
-	font-size: 22px;
+	font-size: 20px;
 	font-weight: bold;
 }
 
@@ -194,12 +197,8 @@ section {
 	margin: 30px 40px 30px 0;
 }
 
-.project_info p {
-	font-size: 20px;
-}
-
 .project_link {
-	font-size: 22px;
+	font-size: 20px;
 	font-weight: bold;
 }
 
@@ -264,7 +263,6 @@ footer a:hover {
 		display: block;
 		padding-top: 10px;
 		padding-bottom: 10px;
-		font-size: 20px;
 		border-top: 1px solid #FF0066; /* Hot pink */
 		border-bottom: 1px solid #FF0066; /* Hot pink */
 	}
@@ -273,7 +271,11 @@ footer a:hover {
 		content: none;
 	}
 
-	.siteHeader, .sectionHeader {
+	.siteHeader {
+		font-size: 20px;
+	}
+
+	.sectionHeader, h2 {
 		font-size: 18px;
 	}
 
@@ -281,8 +283,8 @@ footer a:hover {
 		max-width: 200px;
 	}
 
-	#about_me p, #special_thanks p {
-		font-size: 15px;
+	#about_me p, .project_info p, #special_thanks p {
+		font-size: 14px;
 	}
 
 	.project_tile {
@@ -293,8 +295,8 @@ footer a:hover {
 		width: 230px;
 	}
 
-	.project_tile h2 {
-		font-size: 18px;
+	.project_tile p {
+		font-size: 15px;
 	}
 
 	.project_img {
@@ -313,15 +315,11 @@ footer a:hover {
 		text-align: center;
 	}
 
-	.project_info h1 {
-		font-size: 22px;
-	}
-
-	.project_info p {
-		font-size: 16px;
-	}
-
 	.project_link {
-		font-size: 18px;
+		font-size: 15px;
+	}
+
+	footer {
+		font-size: 10px;
 	}
 }

@@ -111,10 +111,6 @@ header {
 	display: inline-block;
 }
 
-.project_tile img {
-	width: 400px;
-}
-
 .project_tile p {
 	margin: 0;
 	padding: 0;
@@ -187,10 +183,6 @@ section {
 .project_img {
 	float: left;
 	margin: 30px 40px 30px 50px;
-}
-
-.project_img img {
-	width: 400px;
 }
 
 .project_info {

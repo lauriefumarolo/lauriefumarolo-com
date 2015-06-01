@@ -112,7 +112,7 @@ header {
 }
 
 .project_tile p {
-	margin: 0;
+	margin: 10px 0 0 0;
 	padding: 0;
 	text-align: center;
 	font-size: 20px;
@@ -279,10 +279,6 @@ footer a:hover {
 		font-size: 14px;
 	}
 
-	.project_tile {
-		margin: auto;
-	}
-
 	.project_tile img {
 		width: 230px;
 	}
@@ -313,5 +309,12 @@ footer a:hover {
 
 	footer {
 		font-size: 10px;
+	}
+}
+
+@media only screen and (max-width: 338px) {
+	.project_tile {
+		margin-left: 0;
+		margin-right: 0;
 	}
 }

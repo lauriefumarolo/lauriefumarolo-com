@@ -6,23 +6,7 @@
 <meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1, user-scalable=0" />
 
 <!-- Favicon -->
-<link rel="apple-touch-icon" sizes="57x57" href="/favicon/apple-icon-57x57.png">
-<link rel="apple-touch-icon" sizes="60x60" href="/favicon/apple-icon-60x60.png">
-<link rel="apple-touch-icon" sizes="72x72" href="/favicon/apple-icon-72x72.png">
-<link rel="apple-touch-icon" sizes="76x76" href="/favicon/apple-icon-76x76.png">
-<link rel="apple-touch-icon" sizes="114x114" href="/favicon/apple-icon-114x114.png">
-<link rel="apple-touch-icon" sizes="120x120" href="/favicon/apple-icon-120x120.png">
-<link rel="apple-touch-icon" sizes="144x144" href="/favicon/apple-icon-144x144.png">
-<link rel="apple-touch-icon" sizes="152x152" href="/favicon/apple-icon-152x152.png">
-<link rel="apple-touch-icon" sizes="180x180" href="/favicon/apple-icon-180x180.png">
-<link rel="icon" type="image/png" sizes="192x192" href="/favicon/android-icon-192x192.png">
-<link rel="icon" type="image/png" sizes="32x32" href="/favicon/favicon-32x32.png">
-<link rel="icon" type="image/png" sizes="96x96" href="/favicon/favicon-96x96.png">
-<link rel="icon" type="image/png" sizes="16x16" href="/favicon/favicon-16x16.png">
-<link rel="manifest" href="/favicon/manifest.json">
-<meta name="msapplication-TileColor" content="#EFEDEE">
-<meta name="msapplication-TileImage" content="/favicon/ms-icon-144x144.png">
-<meta name="theme-color" content="#EFEDEE">
+<?php include 'favicon_links.php' ?>
 
 <title>Laurie Fumarolo</title>
 
@@ -37,22 +21,12 @@
 <script src="js/scripts.js" type="text/javascript"></script>
 
 <!-- Google Analytics -->
-<script>
-  (function(i,s,o,g,r,a,m){i['GoogleAnalyticsObject']=r;i[r]=i[r]||function(){
-  (i[r].q=i[r].q||[]).push(arguments)},i[r].l=1*new Date();a=s.createElement(o),
-  m=s.getElementsByTagName(o)[0];a.async=1;a.src=g;m.parentNode.insertBefore(a,m)
-  })(window,document,'script','//www.google-analytics.com/analytics.js','ga');
-
-  ga('create', 'UA-60675441-1', 'auto');
-  ga('send', 'pageview');
-</script>
+<?php include 'analytics.php' ?>
 </head>
 <body>
 <div id="wrapper">
 	<header>
-		<div class="strike">
-			<span class="siteHeader"><a href="index.html">Laurie Fumarolo</a></span>
-		</div>
+        <?php include 'header.php' ?>
 	</header>
 	<div id="content">
 		<!-- About me -->
@@ -74,7 +48,7 @@
 				<div class="bottom right"></div>
 				<div class="bottom left"></div>
 
-				<a href="cityplanetarium.html"><img src="images/cityplanetarium_screenshot.png" alt="City Planetarium" /></a>
+				<a href="cityplanetarium.php"><img src="images/cityplanetarium_screenshot.png" alt="City Planetarium" /></a>
 				<p>City Planetarium</p>
 			</div>
 
@@ -86,16 +60,14 @@
 				<div class="bottom right"></div>
 				<div class="bottom left"></div>
 
-				<a href="jbaquery.html"><img src="images/jBaquery_screenshot.png" alt="jBaquery" /></a>
+				<a href="jbaquery.php"><img src="images/jBaquery_screenshot.png" alt="jBaquery" /></a>
 				<p>jBaquery</p>
 			</div>
 		</section>
 	</div>
 	<hr />
 	<footer>
-		<p>Copyright &copy;2015 Laurie Fumarolo. All Rights Reserved.</p>
-		<p><a href="acknowledgements.html">Acknowledgements</a></p>
-		<a class="social" href="http://linkedin.com/in/lauriefumarolo" target="_blank"></a>
+        <?php include 'footer.php' ?>
 	</footer>
 </div>
 </body>

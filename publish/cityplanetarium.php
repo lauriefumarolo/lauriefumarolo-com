@@ -30,7 +30,7 @@
 		<div class="project_img"><img src="images/cityplanetarium_screenshot.png" alt="City Planetarium" /></div>
 		<div class="project_info">
 			<h2>City Planetarium</h2>
-			<p>I created this site demonstrate my knowledge of Twitter's Bootstrap framework and other modern web design trends. Here, I have included parallax scrolling and a large image banner on the homepage. The transparent menubar over this banner makes quite a statement. To maintain readability, however, I have written JavaScript to remove the effect as the user scrolls down the page.</p>
+			<p>I created this site to demonstrate my knowledge of Twitter's Bootstrap framework and other modern web design trends. Here, I have included parallax scrolling and a large image banner on the homepage. The transparent menubar over this banner makes quite a statement. To maintain readability, however, I have written JavaScript to remove the effect as the user scrolls down the page.</p>
 			<p>This responsive site, for a fictional planetarium, is built on HTML5, CSS, JavaScript, jQuery, and Bootstrap.</p>
 			<p><a class="project_link" href="http://cityplanetarium.lauriefumarolo.com" target="_blank">View the Site</a></p>
 			<p><a class="project_link" href="http://bitbucket.org/lcaires2/cityplanetarium" target="_blank">View the Code Repository on BitBucket</a></p>

@@ -1,0 +1,23 @@
+@-webkit-keyframes rainbow_animation {
+	0%, 100% { background-color: #FF4D94; }
+	50% { background-color: #CC0052; }
+}
+@-moz-keyframes rainbow_animation {
+	0%, 100% { background-color: #FF4D94; }
+	50% { background-color: #CC0052; }
+}
+@-o-keyframes rainbow_animation {
+	0%, 100% { background-color: #FF4D94; }
+	50% { background-color: #CC0052; }
+}
+@keyframes rainbow_animation {
+	0%, 100% { background-color: #FF4D94; }
+	50% { background-color: #CC0052; }
+}
+
+.rainbow_banner {
+	-webkit-animation: rainbow_animation 20s infinite; /* Safari 4+ */
+	-moz-animation: rainbow_animation 20s infinite; /* Fx 5+ */
+	-o-animation: rainbow_animation 20s infinite; /* Opera 12+ */
+	animation: rainbow_animation 20s infinite; /* IE 10+, Fx 29+ */
+}

@@ -12,12 +12,14 @@
 
 	<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.6/css/bootstrap.min.css" integrity="sha384-1q8mTJOASx8j1Au+a5WDVnPi2lkFfwwEAa8hDDdjZlpLegxhjVME1fgjWPGmkzs7" crossorigin="anonymous">
 	<link href="css/styles.css" rel="stylesheet" type="text/css">
+	<link href="css/rainbow_banner.css" rel="stylesheet" type="text/css">
 
 	<!--[if lt IE 9]>
 	<script src="js/html5shiv.min.js"></script>
 	<![endif]-->
 	<script src="js/jquery-1.12.0.min.js" type="text/javascript"></script>
 	<script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.6/js/bootstrap.min.js" integrity="sha384-0mSbJDEHialfmuBBQP6A4Qrprq5OVfW37PRR3j5ELqxss1yVqOtnepnHVP9aJ7xS" crossorigin="anonymous"></script>
+	<script src="js/rainbow_banner.js" type="text/javascript"></script>
 
 	<!-- Google Analytics -->
 	<?php include 'analytics.php' ?>
@@ -28,7 +30,7 @@
 
 		</div>
 	</nav>
-	<div class="jumbotron">
+	<div class="jumbotron rainbow_banner">
 		<div class="container">
 			<h1>Laurie Fumarolo</h1>
 		</div>

@@ -33,8 +33,38 @@ a:hover {
 	flex-direction: row;
 }
 
-.flex-item {
-	padding: 30px;
+#content .flex-container:nth-of-type(even) {
+	background-color: #CCC;
+}
+
+#content .flex-item {
+	padding: 70px;
+}
+
+@media (max-width: 980px) {
+	#content .flex-container {
+		-webkit-flex-direction: column;
+		flex-direction: column;
+	}
+
+	#content .flex-container:nth-child(even) .flex-item:nth-of-type(2) {
+		-webkit-order: -1;
+		order: -1;
+	}
+
+	#content .flex-item {
+		padding: 50px;
+	}
+
+	#content .flex-container:nth-child(odd) .flex-item:nth-of-type(1),
+	#content .flex-container:nth-child(even) .flex-item:nth-of-type(2) {
+		padding-bottom: 0;
+	}
+
+	#content img {
+		width: 99%;
+		max-width: 400px;
+	}
 }
 
 /* Footer Styles */
@@ -50,6 +80,7 @@ footer .flex-container {
 footer .flex-item {
 	flex: 1;
 	text-align: center;
+	padding: 50px;
 }
 
 footer p, footer a {

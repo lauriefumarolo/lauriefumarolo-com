@@ -19,7 +19,6 @@
 	<![endif]-->
 	<script src="js/jquery-1.12.0.min.js" type="text/javascript"></script>
 	<script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.6/js/bootstrap.min.js" integrity="sha384-0mSbJDEHialfmuBBQP6A4Qrprq5OVfW37PRR3j5ELqxss1yVqOtnepnHVP9aJ7xS" crossorigin="anonymous"></script>
-	<script src="js/rainbow_banner.js" type="text/javascript"></script>
 
 	<!-- Google Analytics -->
 	<?php include 'analytics.php' ?>
@@ -35,7 +34,7 @@
 			<h1>Laurie Fumarolo</h1>
 		</div>
 	</div>
-	<div>
+	<div id="content">
 		<div class="flex-container">
 			<div class="flex-item">
 				<img src="images/cityplanetarium_screenshot.png" alt="City Planetarium" />

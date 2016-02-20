@@ -11,6 +11,8 @@
 	<title>Laurie Fumarolo</title>
 
 	<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.6/css/bootstrap.min.css" integrity="sha384-1q8mTJOASx8j1Au+a5WDVnPi2lkFfwwEAa8hDDdjZlpLegxhjVME1fgjWPGmkzs7" crossorigin="anonymous">
+	<link href='https://fonts.googleapis.com/css?family=Special+Elite' rel='stylesheet' type='text/css'>
+	<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/font-awesome/4.5.0/css/font-awesome.min.css">
 	<link href="css/styles.css" rel="stylesheet" type="text/css">
 	<link href="css/rainbow_banner.css" rel="stylesheet" type="text/css">
 
@@ -24,16 +26,15 @@
 	<?php include 'analytics.php' ?>
 </head>
 <body>
-	<nav class="navbar navbar-inverse navbar-fixed-top">
-		<div class="container">
-
-		</div>
-	</nav>
 	<div class="jumbotron rainbow_banner">
 		<div class="container">
+			<hr />
 			<h1>Laurie Fumarolo</h1>
+			<p>Web Developer</p>
+			<hr />
 		</div>
 	</div>
+	<div class="circle"><i class="fa fa-angle-down fa-2x arrow-down"></i></div>
 	<div id="content">
 		<div class="flex-container">
 			<div class="flex-item">

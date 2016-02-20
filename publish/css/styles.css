@@ -2,6 +2,7 @@ html, body {
 	height: 100%;
 	margin: 0;
 	padding: 0;
+	background-color: #FDFDFD;
 }
 
 a:link, a:visited, a:hover {
@@ -18,10 +19,46 @@ a:hover {
 	background-color: #FF0066;
 	height: 600px;
 	margin-bottom: 0;
+	color: white;
+	text-align: center;
+	display: flex;
+	flex-direction: column;
+	justify-content: center;
 }
 
 .jumbotron h1 {
-	color: white;
+	font-family: 'Special Elite', cursive;
+}
+
+.jumbotron hr {
+    border-width: 10px;
+	width: 600px;
+}
+
+@media (max-width: 767px) {
+	.jumbotron hr {
+		width: 360px;
+	}
+}
+
+.circle {
+	width: 70px;
+	height: 70px;
+	border: 1px solid #BFBFBF;
+	border-radius: 50%;
+	box-shadow: 0.5px 4px 9px #BFBFBF;
+	background: #FDFDFD;
+	position: absolute;
+	top: 565px;
+	left: 0;
+	right: 0;
+	margin-left: auto;
+	margin-right: auto;
+	text-align: center;
+}
+
+.arrow-down {
+	line-height: 70px;
 }
 
 /* Content Styles */

@@ -6,6 +6,11 @@
 		<p><a href="acknowledgements.php">Acknowledgements</a></p>
 	</div>
 	<div class="flex-item">
-		<a class="social" href="http://linkedin.com/in/lauriefumarolo" target="_blank"></a>
+		<a href="http://linkedin.com/in/lauriefumarolo" target="_blank">
+			<span class="fa-stack fa-lg">
+				<i class="fa fa-circle fa-stack-2x"></i>
+				<i class="fa fa-linkedin fa-stack-1x social-logo"></i>
+			</span>
+		</a>
 	</div>
 </div>

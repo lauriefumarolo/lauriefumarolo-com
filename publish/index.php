@@ -10,20 +10,9 @@
 
 	<title>Laurie Fumarolo</title>
 
-	<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.6/css/bootstrap.min.css" integrity="sha384-1q8mTJOASx8j1Au+a5WDVnPi2lkFfwwEAa8hDDdjZlpLegxhjVME1fgjWPGmkzs7" crossorigin="anonymous">
+	<?php include 'head_includes.php' ?>
 	<link href='https://fonts.googleapis.com/css?family=Special+Elite' rel='stylesheet' type='text/css'>
-	<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/font-awesome/4.5.0/css/font-awesome.min.css">
-	<link href="css/styles.css" rel="stylesheet" type="text/css">
 	<link href="css/rainbow_banner.css" rel="stylesheet" type="text/css">
-
-	<!--[if lt IE 9]>
-	<script src="js/html5shiv.min.js"></script>
-	<![endif]-->
-	<script src="js/jquery-1.12.0.min.js" type="text/javascript"></script>
-	<script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.6/js/bootstrap.min.js" integrity="sha384-0mSbJDEHialfmuBBQP6A4Qrprq5OVfW37PRR3j5ELqxss1yVqOtnepnHVP9aJ7xS" crossorigin="anonymous"></script>
-
-	<!-- Google Analytics -->
-	<?php include 'analytics.php' ?>
 </head>
 <body>
 	<div class="jumbotron rainbow_banner">

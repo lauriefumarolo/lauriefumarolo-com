@@ -10,17 +10,7 @@
 
 	<title>Laurie Fumarolo | Acknowledgements</title>
 
-	<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.6/css/bootstrap.min.css" integrity="sha384-1q8mTJOASx8j1Au+a5WDVnPi2lkFfwwEAa8hDDdjZlpLegxhjVME1fgjWPGmkzs7" crossorigin="anonymous">
-	<link href="css/styles.css" rel="stylesheet" type="text/css">
-
-	<!--[if lt IE 9]>
-	<script src="js/html5shiv.min.js"></script>
-	<![endif]-->
-	<script src="js/jquery-1.12.0.min.js" type="text/javascript"></script>
-	<script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.6/js/bootstrap.min.js" integrity="sha384-0mSbJDEHialfmuBBQP6A4Qrprq5OVfW37PRR3j5ELqxss1yVqOtnepnHVP9aJ7xS" crossorigin="anonymous"></script>
-
-	<!-- Google Analytics -->
-	<?php include 'analytics.php' ?>
+	<?php include 'head_includes.php' ?>
 </head>
 <body>
 	<header>
@@ -34,6 +24,7 @@
 
 			<ul class="acknowledgementList">
 				<li>&quot;<a href="http://www.transparenttextures.com/" target="_blank">Az Subtle</a>&quot; by <a href="http://azmind.com/" target="_blank">Anli.</a> is free for commercial/non-commercial use</li>
+				<li>&quot;<a href="http://fontawesome.io/" target="_blank">Font Awesome</a>&quot; by Dave Gandy - http://fontawesome.io</li>
 			</ul>
 		</section>
 		<section id="special_thanks">

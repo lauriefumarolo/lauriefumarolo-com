@@ -33,8 +33,7 @@
 			</div>
 
 			<ul class="acknowledgementList">
-				<li>&quot;<a href="https://www.iconfinder.com/icons/107178/circle_color_linkedin_icon#size=32" target="_blank">linkedin_circle_color-32.png</a>&quot; by <a href="https://www.iconfinder.com/neilorangepeel" target="_blank">Neil Hainsworth</a> is free for commercial/non-commercial use</li>
-				<li>&quot;<a href="https://www.iconfinder.com/icons/107149/circle_gray_linkedin_icon#size=32" target="_blank">linkedin_circle_gray-32.png</a>&quot; by <a href="https://www.iconfinder.com/neilorangepeel" target="_blank">Neil Hainsworth</a> is free for commercial/non-commercial use</li>
+				<li>&quot;<a href="http://www.transparenttextures.com/" target="_blank">Az Subtle</a>&quot; by <a href="http://azmind.com/" target="_blank">Anli.</a> is free for commercial/non-commercial use</li>
 			</ul>
 		</section>
 		<section id="special_thanks">

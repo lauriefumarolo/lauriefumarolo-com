@@ -33,8 +33,8 @@
 			<p>Web Developer</p>
 			<hr />
 		</div>
+		<div class="circle"><i class="fa fa-angle-down fa-2x arrow-down"></i></div>
 	</div>
-	<div class="circle"><i class="fa fa-angle-down fa-2x arrow-down"></i></div>
 	<div id="content">
 		<div class="flex-container">
 			<div class="flex-item">

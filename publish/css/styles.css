@@ -146,7 +146,11 @@ footer .flex-container {
 footer .flex-item {
 	flex: 1;
 	text-align: center;
-	padding: 50px;
+	padding: 50px 0;
+}
+
+footer .flex-item:nth-of-type(2) {
+	flex: 2;
 }
 
 footer p, footer a, footer a:visited {
@@ -159,9 +163,28 @@ footer a:hover {
 }
 
 @media(max-width: 677px) {
+	body {
+		margin-bottom: 166px;
+	}
+
+	footer {
+		height: 166px;
+	}
+
 	footer .flex-container {
 		-webkit-flex-direction: column;
 		flex-direction: column;
+	}
+
+	footer .flex-item {
+		padding-top: 0;
+		padding-bottom: 20px;
+	}
+
+	footer .flex-item:nth-of-type(2) {
+		padding-top: 20px;
+		-webkit-order: -1;
+		order: -1;
 	}
 }
 

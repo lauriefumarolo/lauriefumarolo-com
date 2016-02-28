@@ -14,7 +14,7 @@
 </head>
 <body>
 	<header>
-        <h1>Thank You</h1>
+		<h1>Thank You</h1>
 	</header>
 	<div id="content">
 		<section>
@@ -35,8 +35,6 @@
 			<p>A big thank you goes to my husband, Steve, for his continued support and encouragement. He has given me great feedback and even helped with some crazy IE issues. Steve, I am so grateful for everything you do!</p>
 		</section>
 	</div>
-	<footer>
-        <?php include 'footer.php' ?>
-	</footer>
+	<?php include 'footer.php' ?>
 </body>
 </html>

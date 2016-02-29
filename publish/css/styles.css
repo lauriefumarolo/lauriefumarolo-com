@@ -29,6 +29,7 @@ a:link, a:visited, a:hover {
 	display: flex;
 	-webkit-flex-direction: column;
 	flex-direction: column;
+	-webkit-justify-content: center;
 	justify-content: center;
 }
 
@@ -165,12 +166,14 @@ footer .flex-container {
 }
 
 footer .flex-item {
+	-webkit-flex: 1 1 auto;
 	flex: 1;
 	text-align: center;
 	padding: 50px 0;
 }
 
 footer .flex-item:nth-of-type(2) {
+	-webkit-flex: 2 2 auto;
 	flex: 2;
 }
 

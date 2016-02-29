@@ -138,6 +138,16 @@ a:hover {
 	}
 }
 
+/* Acknowledgement Page Styles */
+
+section {
+	margin-top: 50px;
+}
+
+section:last-of-type {
+	margin-bottom: 50px;
+}
+
 /* Footer Styles */
 
 footer {

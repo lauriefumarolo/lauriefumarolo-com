@@ -20,20 +20,14 @@
 	</div>
 	<div class="container">
 		<section>
-			<div class="strike strike_section">
-				<span class="sectionHeader">Image Licenses</span>
-			</div>
-
-			<ul class="acknowledgementList">
+			<h2>Image Licenses</h2>
+			<ul>
 				<li>&quot;<a href="http://www.transparenttextures.com/" target="_blank">Az Subtle</a>&quot; by <a href="http://azmind.com/" target="_blank">Anli.</a> is free for commercial/non-commercial use</li>
 				<li>&quot;<a href="http://fontawesome.io/" target="_blank">Font Awesome</a>&quot; by Dave Gandy - http://fontawesome.io</li>
 			</ul>
 		</section>
-		<section id="special_thanks">
-			<div class="strike strike_section">
-				<span class="sectionHeader">Special Thanks</span>
-			</div>
-
+		<section>
+			<h2>Special Thanks</h2>
 			<p>A big thank you goes to my husband, Steve, for his continued support and encouragement. He has given me great feedback and even helped with some crazy IE issues. Steve, I am so grateful for everything you do!</p>
 		</section>
 	</div>

@@ -158,17 +158,21 @@ footer p, footer a, footer a:visited {
 	color: white;
 }
 
+footer p {
+	margin: 0;
+}
+
 footer a:hover {
 	color: #FF0066;
 }
 
 @media(max-width: 677px) {
 	body {
-		margin-bottom: 166px;
+		margin-bottom: 146px;
 	}
 
 	footer {
-		height: 166px;
+		height: 146px;
 	}
 
 	footer .flex-container {

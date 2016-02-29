@@ -13,10 +13,12 @@
 	<?php include 'head_includes.php' ?>
 </head>
 <body>
-	<header>
-		<h1>Thank You</h1>
-	</header>
-	<div id="content">
+	<div class="jumbotron">
+		<div class="container">
+			<h1><a href="./">Laurie Fumarolo</a></h1>
+		</div>
+	</div>
+	<div class="container">
 		<section>
 			<div class="strike strike_section">
 				<span class="sectionHeader">Image Licenses</span>

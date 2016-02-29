@@ -11,11 +11,10 @@
 	<title>Laurie Fumarolo</title>
 
 	<?php include 'head_includes.php' ?>
-	<link href='https://fonts.googleapis.com/css?family=Special+Elite' rel='stylesheet' type='text/css'>
 	<link href="css/rainbow_banner.css" rel="stylesheet" type="text/css">
 </head>
 <body>
-	<div class="jumbotron rainbow_banner">
+	<div class="jumbotron main_jumbotron rainbow_banner">
 		<div class="container">
 			<hr />
 			<h1>Laurie Fumarolo</h1>

@@ -24,9 +24,9 @@ a:hover {
 /* Header Styles */
 
 .jumbotron {
-	position: relative;
+	background-color: #F06;
 	background-image: url("../images/az-subtle.png");
-	height: 600px;
+	height: 160px;
 	margin-bottom: 0;
 	text-align: center;
 	display: flex;
@@ -34,15 +34,24 @@ a:hover {
 	justify-content: center;
 }
 
-.jumbotron h1, .jumbotron p {
+.main_jumbotron {
+	position: relative;
+	height: 600px;
+}
+
+.jumbotron h1, .jumbotron p, .jumbotron h1 a, .jumbotron h1 a:hover {
 	color: white;
+}
+
+.jumbotron h1 a, .jumbotron h1 a:hover {
+	font-size: 32px;
 }
 
 .jumbotron h1 {
 	font-family: 'Special Elite', cursive;
 }
 
-.jumbotron hr {
+.main_jumbotron hr {
     border-width: 10px;
 	width: 600px;
 }
@@ -67,11 +76,11 @@ a:hover {
 }
 
 @media (max-width: 767px) {
-	.jumbotron {
+	.main_jumbotron {
 		height: 400px;
 	}
 
-	.jumbotron hr {
+	.main_jumbotron hr {
 		width: 360px;
 	}
 

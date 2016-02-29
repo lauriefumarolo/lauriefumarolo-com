@@ -1,18 +1,18 @@
 @-webkit-keyframes rainbow_animation {
-	0%, 100% { background-color: #FF4D94; }
-	50% { background-color: #CC0052; }
+	0%, 100% { background-color: #F06; }
+	50% { background-color: #FF7518; }
 }
 @-moz-keyframes rainbow_animation {
-	0%, 100% { background-color: #FF4D94; }
-	50% { background-color: #CC0052; }
+	0%, 100% { background-color: #F06; }
+	50% { background-color: #FF7518; }
 }
 @-o-keyframes rainbow_animation {
-	0%, 100% { background-color: #FF4D94; }
-	50% { background-color: #CC0052; }
+	0%, 100% { background-color: #F06; }
+	50% { background-color: #FF7518; }
 }
 @keyframes rainbow_animation {
-	0%, 100% { background-color: #FF4D94; }
-	50% { background-color: #CC0052; }
+	0%, 100% { background-color: #F06; }
+	50% { background-color: #FF7518; }
 }
 
 .rainbow_banner {

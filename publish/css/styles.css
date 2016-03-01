@@ -117,8 +117,20 @@ a:link, a:visited, a:hover {
 	padding: 70px;
 }
 
+#content .flex-container:nth-child(odd) .flex-item:nth-of-type(2),
+#content .flex-container:nth-child(even) .flex-item:nth-of-type(1) {
+	-webkit-flex: 2;
+	flex: 2;
+}
+
 #content img {
 	border: 1px solid #E6E6E6;
+}
+
+@media (max-width: 1247px) and (min-width: 981px) {
+	#content img {
+		width: 300px;
+	}
 }
 
 @media (max-width: 980px) {
@@ -144,6 +156,9 @@ a:link, a:visited, a:hover {
 	#content img {
 		width: 99%;
 		max-width: 400px;
+		display: block;
+		margin-left: auto;
+		margin-right: auto;
 	}
 }
 

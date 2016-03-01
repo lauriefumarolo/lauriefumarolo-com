@@ -95,6 +95,18 @@ a:link, a:visited, a:hover {
 	}
 }
 
+@media (max-width: 390px) {
+	.main_jumbotron hr {
+		width: 330px;
+	}
+}
+
+@media (max-width: 350px) {
+	.main_jumbotron hr {
+		width: 240px;
+	}
+}
+
 /* Content Styles */
 
 .flex-container {
@@ -127,7 +139,7 @@ a:link, a:visited, a:hover {
 	border: 1px solid #E6E6E6;
 }
 
-@media (max-width: 1247px) and (min-width: 981px) {
+@media (max-width: 1247px) {
 	#content img {
 		width: 300px;
 	}

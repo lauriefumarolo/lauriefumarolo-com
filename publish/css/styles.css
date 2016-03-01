@@ -25,9 +25,7 @@ a:link, a:visited, a:hover {
 	height: 160px;
 	margin-bottom: 0;
 	text-align: center;
-	display: -webkit-flex;
 	display: flex;
-	-webkit-flex-direction: column;
 	flex-direction: column;
 	justify-content: center;
 }
@@ -110,14 +108,11 @@ a:link, a:visited, a:hover {
 /* Content Styles */
 
 .flex-container {
-	display: -webkit-flex;
 	display: flex;
-	-webkit-flex-direction: row;
 	flex-direction: row;
 }
 
 .flex-item {
-	-webkit-flex: 1;
 	flex: 1;
 }
 
@@ -131,7 +126,6 @@ a:link, a:visited, a:hover {
 
 #content .flex-container:nth-child(odd) .flex-item:nth-of-type(2),
 #content .flex-container:nth-child(even) .flex-item:nth-of-type(1) {
-	-webkit-flex: 2;
 	flex: 2;
 }
 
@@ -147,12 +141,10 @@ a:link, a:visited, a:hover {
 
 @media (max-width: 980px) {
 	#content .flex-container {
-		-webkit-flex-direction: column;
 		flex-direction: column;
 	}
 
 	#content .flex-container:nth-child(even) .flex-item:nth-of-type(2) {
-		-webkit-order: -1;
 		order: -1;
 	}
 
@@ -204,7 +196,6 @@ footer .flex-item {
 }
 
 footer .flex-item:nth-of-type(2) {
-	-webkit-flex: 2;
 	flex: 2;
 }
 
@@ -231,7 +222,6 @@ footer a:hover {
 	}
 
 	footer .flex-container {
-		-webkit-flex-direction: column;
 		flex-direction: column;
 	}
 
@@ -242,7 +232,6 @@ footer a:hover {
 
 	footer .flex-item:nth-of-type(2) {
 		padding-top: 20px;
-		-webkit-order: -1;
 		order: -1;
 	}
 }

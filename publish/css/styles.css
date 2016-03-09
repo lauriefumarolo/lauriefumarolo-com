@@ -194,25 +194,20 @@ footer {
 	text-align: center;
 }
 
-footer .container > div {
+footer .container {
+	height: 100%;
+}
+
+footer .row {
+	margin-top: 55px;
+}
+
+.footer_text {
+	margin-top: 5px;
+}
+
+.copywrap {
 	display: inline-block;
-}
-
-footer .first {
-	float: left;
-	margin-top: 62px;
-	width: 20%;
-}
-
-footer .second {
-	margin-top: 60px;
-	width: 60%;
-}
-
-footer .third {
-	float: right;
-	margin-top: 52px;
-	width: 20%;
 }
 
 footer p, footer a, footer a:visited {
@@ -228,7 +223,7 @@ footer a:hover {
 	color: #F06;
 }
 
-@media(max-width: 677px) {
+@media(max-width: 767px) {
 	body {
 		margin-bottom: 146px;
 	}
@@ -237,14 +232,23 @@ footer a:hover {
 		height: 146px;
 	}
 
-	footer .container > div {
-		display: block;
+	footer .row {
+		margin-top: 22px;
 	}
 
-	footer .first, footer .second, footer .third {
-		float: none;
+	.footer_text {
+		margin-top: 0;
+		margin-bottom: 20px;
+	}
+}
+
+@media(max-width: 327px) {
+	footer .row {
 		margin-top: 20px;
-		width: 100%;
+	}
+
+	.footer_text {
+		margin-bottom: 15px;
 	}
 }
 

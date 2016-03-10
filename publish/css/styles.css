@@ -20,6 +20,7 @@ a:link, a:visited, a:hover {
 /* Header Styles */
 
 .jumbotron {
+	position: relative;
 	background-color: #F06;
 	background-image: url("../images/az-subtle.png");
 	height: 160px;
@@ -28,7 +29,6 @@ a:link, a:visited, a:hover {
 }
 
 .main_jumbotron {
-	position: relative;
 	height: 600px;
 }
 

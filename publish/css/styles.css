@@ -102,11 +102,11 @@ a:link, a:visited, a:hover {
 
 @media (max-width: 390px) {
 	.main_jumbotron hr {
-		width: 330px;
+		width: 320px;
 	}
 }
 
-@media (max-width: 350px) {
+@media (max-width: 337px) {
 	.main_jumbotron hr {
 		width: 240px;
 	}

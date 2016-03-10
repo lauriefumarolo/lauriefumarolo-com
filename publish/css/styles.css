@@ -144,11 +144,13 @@ a:link, a:visited, a:hover {
 	}
 }
 
-@media(max-width: 767px) {
+@media(max-width: 1064px) {
 	#content .row {
-		padding: 50px;
+		padding: 40px;
 	}
+}
 
+@media(max-width: 767px) {
 	.img_row {
 		margin-bottom: 50px;
 	}

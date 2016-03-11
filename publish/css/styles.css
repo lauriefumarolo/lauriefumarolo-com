@@ -1,320 +1,264 @@
 html, body {
-	height: 100%;
-	margin: 0 25px;
+	min-height: 100%;
+	margin: 0;
 	padding: 0;
-	background-image: url('../images/debut-light.png');
-	background-repeat: repeat;
-	font-family: 'Open Sans Condensed', sans-serif;
-	color: #454445; /* Dark gray */
+	background-color: #FDFDFD;
+}
+
+html {
+	position: relative;
+}
+
+body {
+	margin-bottom: 132px;
 }
 
 a:link, a:visited, a:hover {
-	color: #454445; /* Dark gray */
 	text-decoration: none;
 }
 
-#wrapper {
-	display: -webkit-flex;
-	display: flex;
-	-webkit-flex-direction: column;
-	flex-direction: column;
-	min-height: 100%;
-	background: white;
-}
+/* Header Styles */
 
-/* Laurie Fumarolo header styles */
-
-header {
-	padding: 30px;
-}
-
-.strike {
-	display: block;
-	text-align: center;
-	overflow: hidden;
-	white-space: nowrap;
-}
-
-.strike > span {
-	display: inline-block;
+.jumbotron {
 	position: relative;
+	background-color: #F06;
+	background-image: url("../images/az-subtle.png");
+	height: 160px;
+	margin-bottom: 0;
+	text-align: center;
 }
 
-.strike > span:before, .strike > span:after {
+.main_jumbotron {
+	height: 600px;
+}
+
+.jumbotron .container {
 	position: absolute;
-	width: 10000px; /* In IE, 100% isn't actually 100% */
-	height: 1px;
 	top: 50%;
-	content: '';
-	background: #FF0066; /* Hot pink */
-}
-
-.strike > span:before {
-	right: 100%;
-	margin-right: 15px;
-}
-
-.strike > span:after {
-	left: 100%;
-	margin-left: 15px;
-}
-
-.siteHeader, .sectionHeader {
-	font-family: 'Codystar', sans-serif;
-	font-size: 36px;
-	font-weight: bold;
-}
-
-/* Section header styles */
-
-.strike_section {
-	max-width: 400px;
-	margin: 50px auto 30px auto;
-}
-
-.sectionHeader, h2 {
-	font-size: 28px;
-}
-
-/* Content styles */
-
-#content {
-	-webkit-flex: 1;
-	flex: 1;
-}
-
-/* Paragraph styles */
-
-#about_me p, .project_info p, #special_thanks p {
-	font-size: 18px;
-}
-
-#about_me p, #special_thanks p {
-	padding: 0 30px;
-	text-align: center;
-}
-
-/* Project tile styles */
-
-#projects {
-	margin: 30px auto;
-}
-
-.project_tile {
-	display: inline-block;
-	position: relative;
-	margin: 15px;
-	padding: 10px;
-}
-
-.project_tile a {
-	display: inline-block;
-}
-
-.project_tile p {
-	margin: 10px 0 0 0;
-	padding: 0;
-	text-align: center;
-	font-size: 20px;
-	font-weight: bold;
-}
-
-/* Pink corners */
-
-.top, .bottom {
-	position: absolute;
-	width: 15px;
-	height: 15px;
-}
-
-.top {
-	top: 0;
-	border-top: 3px solid #FF0066; /* Hot pink */
-}
-
-.bottom {
-	bottom: 0;
-	border-bottom: 3px solid #FF0066; /* Hot pink */
-}
-
-.left {
+	transform: translateY(-50%);
+	margin-left: auto;
+	margin-right: auto;
 	left: 0;
-	border-left: 3px solid #FF0066; /* Hot pink */
-}
-
-.right {
 	right: 0;
-	border-right: 3px solid #FF0066; /* Hot pink */
 }
 
-/* Acknowledgements page styles */
+.jumbotron h1, .jumbotron p, .jumbotron h1 a, .jumbotron h1 a:hover {
+	color: white;
+}
+
+.jumbotron h1 a, .jumbotron h1 a:hover {
+	font-size: 32px;
+}
+
+.jumbotron h1 {
+	font-family: 'Special Elite', cursive;
+	margin-top: 0;
+	margin-bottom: 0;
+}
+
+.main_jumbotron hr {
+    border-width: 10px;
+	width: 600px;
+}
+
+.circle {
+	width: 70px;
+	height: 70px;
+	border: 1px solid #BFBFBF;
+	border-radius: 50%;
+	box-shadow: 0.5px 4px 9px #BFBFBF;
+	background: #FDFDFD;
+	position: absolute;
+	bottom: -35px;
+	left: 0;
+	right: 0;
+	margin-left: auto;
+	margin-right: auto;
+}
+
+.arrow-down {
+	line-height: 70px;
+}
+
+@media (max-width: 767px) {
+	.main_jumbotron {
+		height: 400px;
+	}
+
+	.main_jumbotron hr {
+		width: 360px;
+	}
+
+	.circle {
+		width: 50px;
+		height: 50px;
+		bottom: -25px;
+	}
+
+	.arrow-down {
+		line-height: 50px;
+	}
+}
+
+@media (max-width: 390px) {
+	.main_jumbotron hr {
+		width: 320px;
+	}
+}
+
+@media (max-width: 337px) {
+	.main_jumbotron hr {
+		width: 240px;
+	}
+}
+
+/* Content Styles */
+
+#content.container {
+	width: 100%;
+}
+
+#content .row {
+	padding: 70px;
+}
+
+.grey_row {
+	background-color: #E6E6E6;
+}
+
+.vcenter {
+	display: inline-block;
+	vertical-align: middle;
+	float: none;
+}
+
+#content img {
+	border: 1px solid #E6E6E6;
+}
+
+@media(max-width: 1474px) {
+	#content img {
+		width: 90%;
+		min-width: 250px;
+		max-width: 400px;
+	}
+}
+
+@media(max-width: 1064px) {
+	#content .row {
+		padding: 40px;
+	}
+}
+
+@media(max-width: 767px) {
+	.img_row {
+		margin-bottom: 50px;
+	}
+
+	.vcenter {
+		display: block;
+	}
+
+	#content img {
+		display: block;
+		margin-left: auto;
+		margin-right: auto;
+	}
+}
+
+@media(max-width: 327px) {
+	#content .row {
+		padding-left: 0;
+		padding-right: 0;
+	}
+
+	#content .text_row {
+		padding-left: 30px;
+		padding-right: 30px;
+	}
+}
+
+/* Acknowledgement Page Styles */
 
 section {
-	text-align: center;
+	margin: 50px 30px 0 30px;
 }
 
-.acknowledgementList {
-	padding-left: 30px;
-	padding-right: 30px;
+section:last-of-type {
+	margin-bottom: 50px;
 }
 
-.acknowledgementList li {
-	list-style: none;
-}
-
-.acknowledgementList li:before {
-	position: relative;
-	padding-right: .25em;
-	top: .1em;
-	font-size: 1.2em;
-	content: '\2022'; /* /2022 is the numerical unicode for &bull; */
-}
-
-.acknowledgementList a:link, .acknowledgementList a:visited, .acknowledgementList a:hover {
-	color: #FF0066; /* Hot pink */
-}
-
-.acknowledgementList a:hover {
-	text-decoration: underline;
-}
-
-/* Project pages */
-
-.project_img {
-	float: left;
-	margin: 30px 40px 30px 50px;
-}
-
-.project_info {
-	margin: 30px 40px 30px 0;
-}
-
-.project_link {
-	font-size: 20px;
-	font-weight: bold;
-}
-
-.project_link:hover {
-	text-decoration: underline;
-}
-
-/* Footer styles */
-
-hr {
-	border: 0;
-	height: 1px;
-	margin: 50px 20px 5px 20px;
-	background: #FF0066; /* Hot pink */
-}
+/* Footer Styles */
 
 footer {
-	padding: 0 30px 14px 30px;
+	position: absolute;
+	bottom: 0;
+	width: 100%;
+	height: 132px;
+	background-color: #262626;
 	text-align: center;
-	font-size: 14px;
+}
+
+footer .container {
+	height: 100%;
+}
+
+footer .row {
+	margin-top: 55px;
+}
+
+.footer_text {
+	margin-top: 5px;
+}
+
+.copywrap {
+	display: inline-block;
+}
+
+footer p, footer a, footer a:visited {
+	font-size: 12px;
+	color: white;
+}
+
+footer p {
+	margin: 0;
 }
 
 footer a:hover {
-	text-decoration: underline;
+	color: #F06;
 }
 
-/* LinkedIn button styles */
-
-.social {
-	display: block;
-	width: 32px;
-	height: 32px;
-	margin: auto;
-	background-image: url('../images/linkedin_circle_color-32.png');
-	background-repeat: no-repeat;
-}
-
-.social:hover {
-	background-image: url('../images/linkedin_circle_gray-32.png');
-}
-
-/* Media queries */
-
-/* IE doesn't actually support the CSS flexbox model so use different styling here */
-@media all and (-ms-high-contrast: none), (-ms-high-contrast: active) {
-	#content {
-		flex: 1 0 auto;
-	}
-}
-
-@media only screen and (max-width: 855px) {
-	html, body {
-		margin: 0 16px;
-	}
-
-	/* Pink horizontal lines go above and below */
-	header {
-		padding: 20px;
-	}
-
-	header .strike {
-		display: block;
-		padding-top: 10px;
-		padding-bottom: 10px;
-		border-top: 1px solid #FF0066; /* Hot pink */
-		border-bottom: 1px solid #FF0066; /* Hot pink */
-	}
-
-	header .strike > span:before, header .strike > span:after {
-		content: none;
-	}
-
-	.siteHeader {
-		font-size: 20px;
-	}
-
-	.sectionHeader, h2 {
-		font-size: 18px;
-	}
-
-	.strike_section {
-		max-width: 200px;
-	}
-
-	#about_me p, .project_info p, #special_thanks p {
-		font-size: 14px;
-	}
-
-	.project_tile img {
-		width: 230px;
-	}
-
-	.project_tile p {
-		font-size: 15px;
-	}
-
-	.project_img {
-		float: none;
-		margin-left: 0;
-		margin-right: 0;
-		text-align: center;
-	}
-
-	.project_img img {
-		width: 230px;
-	}
-
-	.project_info {
-		margin-left: 40px;
-		text-align: center;
-	}
-
-	.project_link {
-		font-size: 15px;
+@media(max-width: 767px) {
+	body {
+		margin-bottom: 146px;
 	}
 
 	footer {
-		font-size: 10px;
+		height: 146px;
+	}
+
+	footer .row {
+		margin-top: 22px;
+	}
+
+	.footer_text {
+		margin-top: 0;
+		margin-bottom: 20px;
 	}
 }
 
-@media only screen and (max-width: 338px) {
-	.project_tile {
-		margin-left: 0;
-		margin-right: 0;
+@media(max-width: 327px) {
+	footer .row {
+		margin-top: 20px;
 	}
+
+	.footer_text {
+		margin-bottom: 15px;
+	}
+}
+
+/* LinkedIn Button Styles */
+
+.social-logo {
+	color: black;
 }

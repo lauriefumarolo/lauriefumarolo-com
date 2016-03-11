@@ -1,74 +1,52 @@
 <!DOCTYPE html>
 <html lang="en">
 <head>
-<meta charset="utf-8" />
-<!-- Prevents zoomed-out look on mobile devices -->
-<meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1, user-scalable=0" />
+	<meta charset="utf-8" />
+	<!-- Prevents zoomed-out look on mobile devices -->
+	<meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1, user-scalable=0" />
 
-<!-- Favicon -->
-<?php include 'favicon_links.php' ?>
+	<!-- Favicon -->
+	<?php include 'favicon_links.php' ?>
 
-<title>Laurie Fumarolo</title>
+	<title>Laurie Fumarolo</title>
 
-<link href="http://fonts.googleapis.com/css?family=Open+Sans+Condensed:700,300" rel="stylesheet" type="text/css">
-<link href="http://fonts.googleapis.com/css?family=Codystar" rel="stylesheet" type="text/css">
-<link href="css/styles.css" rel="stylesheet" type="text/css">
-
-<!--[if lt IE 9]>
-<script src="js/html5shiv.min.js"></script>
-<![endif]-->
-<script src="js/jquery-1.11.2.min.js" type="text/javascript"></script>
-<script src="js/scripts.js" type="text/javascript"></script>
-
-<!-- Google Analytics -->
-<?php include 'analytics.php' ?>
+	<?php include 'head_includes.php' ?>
+	<link href="css/rainbow_banner.css" rel="stylesheet" type="text/css">
 </head>
 <body>
-<div id="wrapper">
-	<header>
-        <?php include 'header.php' ?>
-	</header>
-	<div id="content">
-		<!-- About me -->
-		<div id="about_me">
-			<p>I've been in the programming world for 7 years. The UI work I was doing sparked my interest in the presentation of web applications. This drove me to further grow my skills in web front end technologies, and I'm now ready to make this the focus of my career.</p>
-			<p>Check out my personal projects below!</p>
+	<div class="jumbotron main_jumbotron rainbow_banner">
+		<div class="container">
+			<hr />
+			<h1>Laurie Fumarolo</h1>
+			<p>Web Developer</p>
+			<hr />
 		</div>
-		<!-- Image tiles representing projects -->
-		<section id="projects">
-			<div class="strike strike_section">
-				<span class="sectionHeader">Projects</span>
-			</div>
-
-            <!-- City Planetarium -->
-            <div class="project_tile">
-				<!-- Hot pink corners that show when user hovers over tile -->
-				<div class="top left"></div>
-				<div class="top right"></div>
-				<div class="bottom right"></div>
-				<div class="bottom left"></div>
-
-				<a href="cityplanetarium.php"><img src="images/cityplanetarium_screenshot.png" alt="City Planetarium" /></a>
-				<p>City Planetarium</p>
-			</div>
-
-            <!-- jBaquery -->
-			<div class="project_tile">
-				<!-- Hot pink corners that show when user hovers over tile -->
-				<div class="top left"></div>
-				<div class="top right"></div>
-				<div class="bottom right"></div>
-				<div class="bottom left"></div>
-
-				<a href="jbaquery.php"><img src="images/jBaquery_screenshot.png" alt="jBaquery" /></a>
-				<p>jBaquery</p>
-			</div>
-		</section>
+		<div class="circle"><i class="fa fa-angle-down fa-2x arrow-down"></i></div>
 	</div>
-	<hr />
-	<footer>
-        <?php include 'footer.php' ?>
-	</footer>
-</div>
+	<div id="content" class="container">
+		<div class="row">
+			<div class="col-sm-5 col-md-4 vcenter img_row">
+				<img src="images/cityplanetarium_screenshot.png" alt="City Planetarium" />
+			</div><div class="col-sm-7 col-md-8 vcenter text_row">
+				<h2>City Planetarium</h2>
+				<p>I created this site to demonstrate my knowledge of Twitter's Bootstrap framework and other modern web design trends. Here, I have included parallax scrolling and a large image banner on the homepage. The transparent menubar over this banner makes quite a statement. To maintain readability, however, I have written JavaScript to remove the effect as the user scrolls down the page.</p>
+				<p>This responsive site, for a fictional planetarium, is built on HTML5, CSS, JavaScript, jQuery, and Bootstrap.</p>
+				<p><a href="http://cityplanetarium.lauriefumarolo.com" target="_blank">View the Site</a></p>
+				<p><a href="http://bitbucket.org/lcaires2/cityplanetarium" target="_blank">View the Code Repository on BitBucket</a></p>
+			</div>
+		</div>
+		<div class="row grey_row">
+			<div class="col-sm-5 col-sm-push-7 col-md-4 col-md-push-8 vcenter img_row">
+				<img src="images/jBaquery_screenshot.png" alt="jBaquery" />
+			</div><div class="col-sm-7 col-sm-pull-5 col-md-8 col-md-pull-4 vcenter text_row">
+				<h2>jBaquery</h2>
+				<p>I recently took courses in interactive web development at my local community college. In order to complete the certificate program I was enrolled in, I had to build a website using the skills that I learned.</p>
+				<p>This responsive site, for a fictional bakery, is built on HTML5, CSS, JavaScript, and jQuery.</p>
+				<p><a href="http://jbaquery.lauriefumarolo.com" target="_blank">View the Site</a></p>
+				<p><a href="http://bitbucket.org/lcaires2/jbaquery" target="_blank">View the Code Repository on BitBucket</a></p>
+			</div>
+		</div>
+	</div>
+	<?php include 'footer.php' ?>
 </body>
 </html>

@@ -15,7 +15,7 @@
 <body>
 	<div class="jumbotron">
 		<div class="container">
-			<h1><a href="./">Laurie Fumarolo</a></h1>
+			<h1><a href="/">Laurie Fumarolo</a></h1>
 		</div>
 	</div>
 	<div class="container">

@@ -36,10 +36,14 @@ a:link, a:visited, a:hover {
 	position: absolute;
 	top: 50%;
 	transform: translateY(-50%);
-	margin-left: auto;
-	margin-right: auto;
 	left: 0;
 	right: 0;
+}
+
+.jumbotron h1 {
+	font-family: 'Special Elite', cursive;
+	margin-top: 0;
+	margin-bottom: 0;
 }
 
 .jumbotron h1, .jumbotron p, .jumbotron h1 a, .jumbotron h1 a:hover {
@@ -48,12 +52,6 @@ a:link, a:visited, a:hover {
 
 .jumbotron h1 a, .jumbotron h1 a:hover {
 	font-size: 32px;
-}
-
-.jumbotron h1 {
-	font-family: 'Special Elite', cursive;
-	margin-top: 0;
-	margin-bottom: 0;
 }
 
 .main_jumbotron hr {
@@ -76,7 +74,7 @@ a:link, a:visited, a:hover {
 	margin-right: auto;
 }
 
-.arrow-down {
+.fa-angle-down.arrow-down {
 	line-height: 70px;
 }
 
@@ -95,7 +93,7 @@ a:link, a:visited, a:hover {
 		bottom: -25px;
 	}
 
-	.arrow-down {
+	.fa-angle-down.arrow-down {
 		line-height: 50px;
 	}
 }
@@ -127,7 +125,7 @@ a:link, a:visited, a:hover {
 }
 
 .vcenter {
-	display: inline-block;
+	display: table-cell;
 	vertical-align: middle;
 	float: none;
 }
@@ -220,12 +218,15 @@ footer p, footer a, footer a:visited {
 	color: white;
 }
 
-footer p {
-	margin: 0;
-}
-
 footer a:hover {
 	color: #F06;
+}
+
+/* LinkedIn Button Styles */
+
+.fa-linkedin.social-logo {
+	color: black;
+	line-height: 30px;
 }
 
 @media(max-width: 767px) {
@@ -255,10 +256,4 @@ footer a:hover {
 	.footer_text {
 		margin-bottom: 15px;
 	}
-}
-
-/* LinkedIn Button Styles */
-
-.social-logo {
-	color: black;
 }

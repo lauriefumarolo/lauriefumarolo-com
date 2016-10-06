@@ -2,7 +2,7 @@ html, body {
 	min-height: 100%;
 	margin: 0;
 	padding: 0;
-	background-color: #FDFDFD;
+	color: #545454;
 }
 
 html {
@@ -117,21 +117,24 @@ a:link, a:visited, a:hover {
 }
 
 #content .row {
+	margin: 0;
 	padding: 70px;
 }
 
-.grey_row {
-	background-color: #E6E6E6;
-}
-
-.vcenter {
-	display: table-cell;
-	vertical-align: middle;
-	float: none;
-}
-
 #content img {
+	display: block;
+	margin-left: auto;
+	margin-right: auto;
 	border: 1px solid #E6E6E6;
+}
+
+#content .text_row {
+	padding-top: 30px;
+}
+
+#content hr {
+	margin: 0 30px;
+	border-color: #D9D9D9;
 }
 
 @media(max-width: 1474px) {
@@ -144,23 +147,45 @@ a:link, a:visited, a:hover {
 
 @media(max-width: 1064px) {
 	#content .row {
-		padding: 40px;
+		padding-left: 40px;
+		padding-right: 40px;
 	}
 }
 
-@media(max-width: 767px) {
-	.img_row {
-		margin-bottom: 50px;
-	}
-
+@media(min-width: 992px) {
 	.vcenter {
-		display: block;
+		display: table-cell;
+		vertical-align: middle;
+		float: none;
 	}
 
-	#content img {
-		display: block;
-		margin-left: auto;
-		margin-right: auto;
+	#content .vcenter.text_row {
+		padding-top: 0;
+	}
+
+	#content .double_row {
+		display: inline-block;
+		width: 50%;
+		margin-top: 30px;
+		margin-bottom: 30px;
+		padding-top: 40px;
+		padding-bottom: 40px;
+	}
+
+	.double_row.second_row {
+		float: right;
+	}
+
+	.border_row {
+		border-right: 1px solid #D9D9D9;
+	}
+
+	#content .double_row img {
+		width: 60%;
+	}
+
+	.double_row + hr {
+		display: none;
 	}
 }
 
@@ -193,8 +218,9 @@ footer {
 	bottom: 0;
 	width: 100%;
 	height: 132px;
-	background-color: #262626;
+	background-color: #E6E6E6;
 	text-align: center;
+	border: 1px solid #D9D9D9;
 }
 
 footer .container {
@@ -215,7 +241,7 @@ footer .row {
 
 footer p, footer a, footer a:visited {
 	font-size: 12px;
-	color: white;
+	color: #545454;
 }
 
 footer a:hover {
@@ -225,7 +251,7 @@ footer a:hover {
 /* LinkedIn Button Styles */
 
 .fa-linkedin.social-logo {
-	color: black;
+	color: white;
 	line-height: 30px;
 }
 

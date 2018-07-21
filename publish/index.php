@@ -20,8 +20,8 @@
 			<div class="col">
 				<img src="images/kohapets_screenshot.png" alt="Koha Pets" />
 				<h2>Koha Pets</h2>
-				<p>I was hired as a BigCommerce developer to add new features to this existing site based on the client's requirements.</p>
-				<p>On the product details page, after a customer adds the product to their cart, I determine whether or not a free sample should be offered. If so, and the sample products are not already in their cart, I show a pop-up displaying two possible options. The customer can then add either product to their cart. A cart level discount that is set up in the backend removes the cost.</p>
+				<p>I was independently contracted as a BigCommerce developer to add new features to this existing site based on the client's requirements.</p>
+				<p>After a customer adds a product to their cart from the product details page, it is determined whether or not a free sample should be offered. If so, and the sample products are not already in their cart, I show a pop-up displaying two options the customer can choose from. A cart level discount that is set up in the backend removes the cost.</p>
 				<p>This is a BigCommerce site and utilizes BigCommerce's Stencil API.</p>
 				<p><a href="https://kohapet.com/" target="_blank">View the Site</a></p>
 			</div>
@@ -31,7 +31,7 @@
 				<p>I implemented this site for RCA, LLC, a company that will be offering a new concept for constructing multi-story, multi-dwelling facilities. I was hired as a web developer to build this new site based on the client's design.</p>
 				<p>On the homepage, I utilized the Bootstrap grid to fulfill the client's requirement for a left-right, snaking flow chart on larger screens, but adapt to a purely vertical layout on mobile devices.</p>
 				<p>This responsive site is built on HTML, CSS, JavaScript, jQuery, and Bootstrap.</p>
-				<p><a href="http://www.rca-modular.com" target="_blank">View the Site</a></p>
+				<p><a href="https://www.rca-modular.com" target="_blank">View the Site</a></p>
 			</div>
 		</div>
 		<div class="row">

@@ -13,9 +13,12 @@
 	<?php include 'head_includes.php' ?>
 </head>
 <body>
+	<div role="navigation" aria-label="Skip to main content">
+        <a class="link--skipToMain" href="#main">Skip to main</a>
+    </div>
 	<?php include 'icon_defs.php' ?>
 	<?php include 'header.php' ?>
-	<div class="container" role="main">
+	<div id="main" class="container" role="main">
 		<h2>Special Thanks</h2>
 		<p>A big thank you goes to my husband, Steve, for his continued support and encouragement. He has given me great feedback and even helped with some crazy IE issues. Steve, I am so grateful for everything you do!</p>
 	</div>

@@ -8,7 +8,9 @@
 	<!-- Favicon -->
 	<?php include 'favicon_links.php' ?>
 
-	<title>Laurie Fumarolo</title>
+	<title>BigCommerce Developer | Laurie Fumarolo</title>
+
+	<meta name="description" content="Laurie Fumarolo is a BigCommerce theme developer and website front end developer, building custom and accessible websites.">
 
 	<?php include 'head_includes.php' ?>
 </head>
@@ -21,15 +23,15 @@
 	<div id="main" class="container" role="main">
 		<div class="cards">
 			<div class="card">
-				<img src="images/kohapets_screenshot.png" alt="Koha Pets" title="Koha Pets" />
+				<img src="images/kohapets_screenshot.png" alt="Koha Pets sample products modal" title="Koha Pets sample products modal" />
 				<h2>Koha Pets</h2>
 				<p>I was independently contracted as a BigCommerce developer to add new features to this existing site based on the client's requirements.</p>
-				<p>After a customer adds a product to their cart from the product details page, it is determined whether or not a free sample should be offered. If so, and the sample products are not already in their cart, I show a pop-up displaying two options the customer can choose from. A cart level discount that is set up in the backend removes the cost.</p>
+				<p>After a customer adds a product to their cart from the product details page, it is determined whether or not a free sample should be offered. If so, and the sample products are not already in their cart, I show a modal displaying two options the customer can choose from. A cart level discount that is set up in the backend removes the cost.</p>
 				<p>This is a BigCommerce site and utilizes BigCommerce's Stencil API.</p>
 				<p><a href="https://kohapet.com/" target="_blank" aria-label="View the Koha Pets site">View the Site</a></p>
 			</div>
 			<div class="card">
-				<img src="images/rca_screenshot.png" alt="RCA Modular" title="RCA Modular" />
+				<img src="images/rca_screenshot.png" alt="RCA Modular homepage" title="RCA Modular homepage" />
 				<h2>Robotic Construction Automation, LLC</h2>
 				<p>I implemented this site for RCA, LLC, a company that will be offering a new concept for constructing multi-story, multi-dwelling facilities. I was hired as a web developer to build this new site based on the client's design.</p>
 				<p>On the homepage, I utilized the Bootstrap grid to fulfill the client's requirement for a left-right, snaking flow chart on larger screens, but adapt to a purely vertical layout on mobile devices.</p>
@@ -37,7 +39,7 @@
 				<p><a href="https://www.rca-modular.com" target="_blank" aria-label="View the Robotic Construction Automation, LLC site">View the Site</a></p>
 			</div>
 			<div class="card">
-				<img src="images/cityplanetarium_screenshot.png" alt="City Planetarium" title="City Planetarium" />
+				<img src="images/cityplanetarium_screenshot.png" alt="City Planetarium homepage" title="City Planetarium homepage" />
 				<h2>City Planetarium</h2>
 				<p>I created this site to demonstrate my knowledge of Twitter's Bootstrap framework and other modern web design trends. Here, I have included parallax scrolling and a large image banner on the homepage. The transparent menubar over this banner makes quite a statement. To maintain readability, however, I have written JavaScript to remove the effect as the user scrolls down the page.</p>
 				<p>This responsive site, for a fictional planetarium, is built on HTML, CSS, JavaScript, jQuery, and Bootstrap.</p>
@@ -45,7 +47,7 @@
 				<p><a href="http://bitbucket.org/lcaires2/cityplanetarium" target="_blank" aria-label="View the City Planetarium code repository on BitBucket">View the Code Repository on BitBucket</a></p>
 			</div>
 			<div class="card">
-				<img src="images/jBaquery_screenshot.png" alt="jBaquery" title="jBaquery" />
+				<img src="images/jBaquery_screenshot.png" alt="jBaquery homepage" title="jBaquery homepage" />
 				<h2>jBaquery</h2>
 				<p>I built this site to fulfill the final requirement of an interactive web development certificate program at my community college. I utilized jQuery plugins for the home page carousel and image galleries, as well as to validate the contact form.</p>
 				<p>This responsive site, for a fictional bakery, is built on HTML, CSS, JavaScript, and jQuery.</p>
